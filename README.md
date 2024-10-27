@@ -52,9 +52,9 @@ Follow the steps below to set up the project:
 ## Model Workflow
 
 ### Handling Missing Values
-```python
-We use `SimpleImputer` from `scikit-learn` to fill missing values with the mean for relevant features.
 
+We use `SimpleImputer` from `scikit-learn` to fill missing values with the mean for relevant features.
+```python
 from sklearn.impute import SimpleImputer
 import numpy as np
 
